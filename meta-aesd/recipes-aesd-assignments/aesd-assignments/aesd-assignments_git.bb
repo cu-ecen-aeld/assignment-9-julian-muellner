@@ -4,7 +4,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 
 inherit update-rc.d
 INITSCRIPT_PACKAGES = "${PN}"
-INITSCRIPT_NAME:{PN} = "aesdsocket-start-stop.sh"
+INITSCRIPT_NAME:${PN} = "aesdsocket-start-stop.sh"
 
 # DONE: Set this  with the path to your assignments rep.  Use ssh protocol and see lecture notes
 # about how to setup ssh-agent for passwordless access
