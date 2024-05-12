@@ -1,0 +1,23 @@
+From b16a06338a65abe99f6e8b7da69a38166c507cb8 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Julian=20M=C3=BCllner?= <julian-muellner@outlook.com>
+Date: Tue, 7 May 2024 21:28:38 +0200
+Subject: [PATCH] added Makefile
+
+---
+ Makefile | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index 7b08c49..bdfea33 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,8 +1,5 @@
+ 
+-SUBDIRS =  misc-progs misc-modules \
+-           skull scull scullc scullp lddbus sculld scullv shortprint simple tty \
+-	   pci usb\
+-	   sbull snull short
++SUBDIRS =  misc-modules scull
+ 
+ all: subdirs
+ 
