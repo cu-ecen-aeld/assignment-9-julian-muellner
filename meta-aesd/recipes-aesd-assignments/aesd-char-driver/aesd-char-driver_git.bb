@@ -9,7 +9,7 @@ INITSCRIPT_NAME:${PN} = "aesd-char-dev-start-stop.sh"
 SRC_URI = "git://git@github.com/cu-ecen-aeld/assignments-3-and-later-julian-muellner.git;protocol=ssh;branch=master"
 
 PV = "1.0+git${SRCPV}"
-SRCREV = "8cfa3cbbfe0e57e28ffac96e903e0bd0b3fb1721"
+SRCREV = "9e7d8d7569c97d5e4a4a362f9054ffedcb6d895b"
 
 S = "${WORKDIR}/git/aesd-char-driver"
 
